@@ -1,0 +1,32 @@
+Based on the provided contexts, there is no direct information on writing a program to calculate the working hours of a dentist. However, the contexts do provide some related information on dentists and their working hours.
+
+From the Indeed article [source](https://www.indeed.com/career-advice/finding-a-job/working-hours-of-a-dentist), dentists typically work full-time hours during a standard business week, and some dentists provide emergency services as needed. However, dentists often have a lot of flexibility when establishing the hours they work.
+
+The question seems to be more related to the programming context, which discusses calculating overtime pay for employees. The Easter Science example [source](https://www.easterscience.com/q1-write-a-program-to-calculate-overtime-pay-of-10-employees-overtime-is-paid-at-the-rate-of-rs-12-00-per-hour-for-every-hour-worked-above-40-hours-assume-that-employees-do-not-work-for-fractional/) provides a Python program that calculates overtime pay for employees.
+
+While this program is not specifically designed for calculating a dentist's working hours, it demonstrates the use of programming to handle employee hours and overtime pay. You could potentially adapt this code to suit your needs in calculating a dentist's working hours, including overtime pay if applicable.
+
+Here's a simplified version of the code from Easter Science:
+
+```python
+# Initialize variables
+employee_hours = 0
+overtime_pay = 0
+
+# Prompt user for working hours
+employee_hours = float(input("Enter the working hours: "))
+
+# Calculate overtime pay if applicable
+if employee_hours > 40:
+    overtime_hours = employee_hours - 40
+    overtime_pay = overtime_hours * 12.00
+    employee_hours = 40
+
+# Calculate total pay
+total_pay = (employee_hours * 12.00) + overtime_pay
+
+# Display results
+print("Total pay: $", total_pay)
+```
+
+Remember to adapt this code to suit your specific requirements for calculating a dentist's working hours.
